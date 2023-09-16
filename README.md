@@ -14,7 +14,7 @@ This actually is the learning plan to this repo and it may change:
 
  - [x] [Creating a Workspace](./workspace.md)
  - [x] [Using Data Visualization collection](./visualization.md)
- - [ ] [Using RESTful API Basics blueprint collection](./restful.md)
+ - [x] [Using RESTful API Basics blueprint collection](./restful.md)
  - [ ] Adding related collections on Workspace
  - [ ] Creating tests with books requests
 
