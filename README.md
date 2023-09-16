@@ -16,7 +16,8 @@ This actually is the learning plan to this repo and it may change:
  - [x] [Using Data Visualization collection](./visualization.md)
  - [x] [Using RESTful API Basics blueprint collection](./restful.md)
  - [x] [Adding related collections on Workspace](./related.md)
- - [ ] Creating tests with books requests
+ - [x] [Creating tests with books requests](./tests.md)
+ - [ ] Using reqres.in to explorer
 
 ## Licence
 
