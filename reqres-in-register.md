@@ -6,13 +6,6 @@ First, create a new collection, name it to `reqres.in APIs` or something like th
 
 ![Using reqres.in collection](images/reqres_in_collection.png "Using reqres.in collection")
 
-## User registration and login
-
-User registration requests:
-
- - [x] Register undefined user error request
- - [x] Register valid user
-
 ## Register undefined user error request
 
 Create a POST request and set url to `{{base_url}}/api/register` - name it as `Register undefined user error`
