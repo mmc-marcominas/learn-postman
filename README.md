@@ -12,7 +12,7 @@ Tip: update Postman to newest version clicking on `Help` -> `Check for updates` 
 
 This actually is the learning plan to this repo and it may change:
 
- - [ ] Creating a Workspace
+ - [x] [Creating a Workspace](./workspace.md)
  - [ ] Using Data Visualization collection
  - [ ] Using RESTful API Basics #blueprint collection
  - [ ] Adding related collections on Workspace
