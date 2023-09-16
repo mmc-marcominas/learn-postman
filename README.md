@@ -21,7 +21,7 @@ This actually is the learning plan to this repo and it may change:
    - [x] [Using reqres.in to register user](./reqres-in-register.md)
    - [x] [Using reqres.in to user login](./reqres-in-login.md)
    - [x] [Using reqres.in to retrieve users](./reqres-in-retrieve.md)
-   - [ ] Using reqres.in to update users
+   - [x] [Using reqres.in to update users](./reqres-in-patch.md)
 
 ## Licence
 
