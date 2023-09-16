@@ -17,7 +17,11 @@ This actually is the learning plan to this repo and it may change:
  - [x] [Using RESTful API Basics blueprint collection](./restful.md)
  - [x] [Adding related collections on Workspace](./related.md)
  - [x] [Creating tests with books requests](./tests.md)
- - [x] [Using reqres.in to explorer](./reqres-in.md)
+ - [x] Using reqres.in to explorer
+   - [x] [Using reqres.in to register user](./reqres-in-register.md)
+   - [x] [Using reqres.in to user login](./reqres-in-login.md)
+   - [ ] Using reqres.in to retrieve users
+   - [ ] Using reqres.in to update users
 
 ## Licence
 
