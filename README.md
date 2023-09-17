@@ -23,6 +23,7 @@ This actually is the learning plan to this repo and it may change:
    - [x] [Using reqres.in to retrieve users](./reqres-in/reqres-in-retrieve.md)
    - [x] [Using reqres.in to update users](./reqres-in/reqres-in-patch.md)
    - [x] [Using reqres.in to build request workflows](./reqres-in/reqres-in-workflow.md)
+   - [x] [Using reqres.in with cool stuffs](./reqres-in/reqres-in-cool.md)
 
 ## Licence
 
