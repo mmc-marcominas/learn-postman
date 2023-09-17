@@ -59,4 +59,4 @@ In this tests `const expected = JSON.parse(pm.request.body.raw);` get submited d
 
 Final expected result of this collection is something like this:
 
-![Using reqres.in collection](images/reqres_in_collection-final.png "Using reqres.in collection")
+![Using reqres.in collection](../images/reqres_in_collection-final.png "Using reqres.in collection")

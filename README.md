@@ -18,10 +18,10 @@ This actually is the learning plan to this repo and it may change:
  - [x] [Adding related collections on Workspace](./related.md)
  - [x] [Creating tests with books requests](./tests.md)
  - [x] Using reqres.in to explorer
-   - [x] [Using reqres.in to register user](./reqres-in-register.md)
-   - [x] [Using reqres.in to user login](./reqres-in-login.md)
-   - [x] [Using reqres.in to retrieve users](./reqres-in-retrieve.md)
-   - [x] [Using reqres.in to update users](./reqres-in-patch.md)
+   - [x] [Using reqres.in to register user](./reqres-in/reqres-in-register.md)
+   - [x] [Using reqres.in to user login](./reqres-in/reqres-in-login.md)
+   - [x] [Using reqres.in to retrieve users](./reqres-in/reqres-in-retrieve.md)
+   - [x] [Using reqres.in to update users](./reqres-in/reqres-in-patch.md)
 
 ## Licence
 

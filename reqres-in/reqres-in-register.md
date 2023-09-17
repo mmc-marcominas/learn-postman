@@ -4,7 +4,7 @@ Let's use [reqres.in](https://reqres.in/) to create some requests with test.
 
 First, create a new collection, name it to `reqres.in APIs` or something like this and add a `base_url` collection variable with `https://reqres.in` value.
 
-![Using reqres.in collection](images/reqres_in_collection.png "Using reqres.in collection")
+![Using reqres.in collection](../images/reqres_in_collection.png "Using reqres.in collection")
 
 ## Register undefined user error request
 
