@@ -25,6 +25,16 @@ This actually is the learning plan to this repo and it may change:
    - [x] [Using reqres.in to build request workflows](./reqres-in/reqres-in-workflow.md)
    - [x] [Using reqres.in with cool stuffs](./reqres-in/reqres-in-cool.md)
 
+## What's next? Check:
+
+ * [Postman JavaScript reference](https://learning.postman.com/docs/writing-scripts/script-references/postman-sandbox-api-reference/)
+ * [API development overview](https://learning.postman.com/docs/designing-and-developing-your-api/the-api-workflow/)
+ * [API lifecycle](https://www.postman.com/api-platform/api-lifecycle/)
+ * [Generating API documentation](https://learning.postman.com/docs/publishing-your-api/documenting-your-api/)
+ * [Run a collection using imported data](https://learning.postman.com/docs/collections/running-collections/working-with-data-files/)
+ * [Postman VS Code extension](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode)
+ * [All Things Postman](https://github.com/DannyDainton/All-Things-Postman)
+
 ## Licence
 
 We use [MIT License](./LICENSE), so enjoy.
