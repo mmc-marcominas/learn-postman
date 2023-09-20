@@ -1,4 +1,4 @@
-# Using reqres.in to explorer Postman resources
+# Using reqres.in to explore Postman resources
 
 Let's use [reqres.in](https://reqres.in/) to create some requests with test.
 
@@ -110,9 +110,9 @@ Run and check result. Expected response is:
 
 ## User by id request
 
-Duplicate last request name it as `User by id`, change url to `{{base_url}}/api/users/:id` and set path param `id` to `{{id}}` variable.
+Duplicate the last request name it as `User by id`, change url to `{{base_url}}/api/users/:id` and set path param `id` to `{{id}}` variable.
 
-Set Authorization to Bearer Token and in Token use `{{token}}` tag to replace by token when subimit request.
+Set Authorization to Bearer Token and in Token use `{{token}}` tag to replace by token when submit request.
 
 Set tests to:
 

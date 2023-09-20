@@ -1,6 +1,6 @@
 # Using Data Visualization collection
 
-Lets explore Data Visualization collection for now.
+Let's explore Data Visualization collection for now.
 
 Click on `Visualize Bar Chart` request and click on `Body` request to check what will be sent.
 
@@ -14,7 +14,7 @@ Now click on `Tests` to check how visualization is configured. It looks like thi
 
 At the end we find visualizer command `pm.visualizer.set( ... );` that contains two parameters: visualization template and visualization data.
 
-Now click on `Send` buttom to get data response:
+Now click on `Send` button to get data response:
 
 ![Bar Chart visualization response body](images/visualization_bar_chart_response_body.png "Bar Chart visualization response body")
 

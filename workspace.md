@@ -1,12 +1,12 @@
 # Creating a Workspace
 
-Let's start creating a Workspace tho our learning plan. Follow this steps:
+Let's start creating a Workspace to our learning plan. Follow this steps:
 
  * click on menu available on top left Postman corner
  * select `File` -> `New` -> `Workspace`
- * choose `API demos` on `Explorer our templates` so we will not start from zero
+ * choose `API demos` on `Explore our templates` so we will not start from zero
  * click on `Next` and fill `Name` and `Summary` - suggestion: "Learning Postman"
- * leave `Team` as `Who can access your workspace` and click on `Create` buttom
+ * leave `Team` as `Who can access your workspace` and click on `Create` button
 
 At this time, `API demos` will create this collections:
 

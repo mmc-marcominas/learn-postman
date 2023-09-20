@@ -1,4 +1,4 @@
-# Using reqres.in to explorer Postman resources
+# Using reqres.in to explore Postman resources
 
 Let's use [reqres.in](https://reqres.in/) to create some requests with test.
 
