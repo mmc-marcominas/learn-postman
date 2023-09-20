@@ -4,7 +4,7 @@ Now let's try other collection - click on `Get data` request of `RESTful API Bas
 
 Check `Tests` tab to see what will be validated and click on `Send` button.
 
-Result looks like this:
+Result will looks like this:
 
 ![RESTful API Tests tab](images/restful_get_data.png "RESTful API Tests tab")
 
@@ -12,9 +12,9 @@ To see test results click on `Test results` on response area:
 
 ![RESTful API Test Results response tab](images/restful_get_data_test_response.png "RESTful API Test Results response tab")
 
-This test check if response status is equals to 200 as excpected.
+This test check if response status is equals to 200 as expected.
 
-Now try `Post data` and check expected result that could be 200 or 201 status.
+Now try `Post data` and check expected result that would be 200 or 201 status.
 
 But wait... all url use this format: `{{base_url}}/info?id=1` - what is this `{{base_url}}` on requests url?
 
@@ -26,9 +26,9 @@ Click on `Variables` tab and you'll see:
 
 ![RESTful API Variables](images/restful_variables.png "RESTful API Variables")
 
-Now we see that `base_url` is set to `https://postman-rest-api-learner.glitch.me/` this value replace `{{base_url}}` tags on collection requests. This variable is available to this specifc collection.
+Now we see that `base_url` is set to `https://postman-rest-api-learner.glitch.me/` this value replace `{{base_url}}` tags on collection requests. This variable is available to this specific collection.
 
-We have `id` variable on this collection too. Lets change `Get data` to use it. Click on `Get data` request, click on `Param` and replace `1` fixed value to `{{id}}` tag.
+We have `id` variable on this collection too. Let's change `Get data` to use it. Click on `Get data` request, click on `Param` and replace `1` fixed value to `{{id}}` tag.
 
 Change this:
 

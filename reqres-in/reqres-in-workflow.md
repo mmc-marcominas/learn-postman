@@ -2,7 +2,7 @@
 
 When you start a collection run, Postman runs all requests in the same order they appear in your collection.
 
-Requests in folders are executed first, followed by any requests in the root of the collection.
+Requests in folders are executed first, followed by any requests in the collection root.
 
 If all steps were followed now we have a collection with:
 
@@ -23,9 +23,9 @@ Set a request workflow is done using `postman.setNextRequest()` function that re
 It's important to know some rules when use workflow with setNextRequest function:
 
  * it only works when you run an entire collection - click on send will not trigger your workflow
- * it must be set in pre-request or test scripts. Suggest put at the end of your test but it may put on first test line, for example
+ * it must be set in pre-request or test scripts. I suggest put at the end of your test but it may put on first test line, for example
  * use next request with the request ID, so if request name changes workflow still works
- * setNextRequest() scope is limited to the collection. It's not able to jump to request in another collection.
+ * setNextRequest() scope is limited to the collection. It's not able to jump to a request in another collection
 
 To change execution order, we need put `postman.setNextRequest("request_name")` at `Tests` so, to a better understanding, let use request name:
 
@@ -56,12 +56,12 @@ On last one, `postman.setNextRequest(null)` will stop workflow requests executio
 
 Now, let's check if it works:
 
- * click on `...` collection menu, it's on right of collection name
+ * click on `...` collection menu on right of collection name
  * choose `Run collection`, check that request order
- * click `Run reqres.in APIs` buttom
+ * click `Run reqres.in APIs` button
  * check execution order
 
-The expected execution is?
+Is execution the expected?
 
  * Register undefined user error
  * Login password error
@@ -73,4 +73,4 @@ The expected execution is?
  * Patch user by id
  * User by id not found
 
-If some request name changes, remember to chante o `Tests` that it was defined as next request to de executed.
+If some request name changes, remember to change the `Tests` that was defined as next request to de executed.

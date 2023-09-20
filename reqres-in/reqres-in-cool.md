@@ -2,7 +2,7 @@
 
 How about try some cool stuffs that can be used on Postman? So, let's go.
 
-## Pre-request validating body request
+## Pre-request to validate body request
 
 Open `Pre-request Script` of `Register undefined user error` and put this code:
 
@@ -30,10 +30,10 @@ What is it:
 
  * first we parse request body content
  * then we check if exists email property with `to.exist` approach
- * then we check if body is an object tha contains `password` with `has.property` method
- * finally, skip a test that check if exists email property using javascript pattern
+ * then we check if body is an object that contains `password` with `has.property` method
+ * finally, skips a test that check if exists email property using javascript pattern
 
-## Pre-request validating body request v2
+## Pre-request to validate body request v2
 
 Open `Pre-request Script` of `Register valid user` and put this code:
 
@@ -178,5 +178,5 @@ What is it:
  * then we check if `Content-Type` header value
  * then we check if response time was below defined time in ms
  * finally a conditional validation if response comes with `support` property or not
-   - if `support` property not found, skip test
-   - if `support` property found, check if it is an object
+   - if `support` property not found, skips test
+   - if `support` property found, checks if it is an object

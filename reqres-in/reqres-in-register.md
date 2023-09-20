@@ -1,4 +1,4 @@
-# Using reqres.in to explorer Postman resources
+# Using reqres.in to explore Postman resources
 
 Let's use [reqres.in](https://reqres.in/) to create some requests with test.
 
@@ -109,4 +109,3 @@ Run and check result. Expected response is:
 ```
 
 Check if collection variable contains `id` with `4` as value and `token` equal to `QpwL5tke4Pnpja7X4`.
-

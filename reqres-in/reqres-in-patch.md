@@ -1,4 +1,4 @@
-# Using reqres.in to explorer Postman resources
+# Using reqres.in to explore Postman resources
 
 Let's use [reqres.in](https://reqres.in/) to create some requests with test.
 
@@ -6,7 +6,7 @@ Let's use [reqres.in](https://reqres.in/) to create some requests with test.
 
 Create a PATCH request and set url to `{{base_url}}/api/users/{{id}}` - name it as `Patch user by id`
 
-Set Authorization to Bearer Token and in Token use `{{token}}` tag to replace by token when subimit request.
+Set Authorization to Bearer Token and in Token use `{{token}}` tag to replace by token when submit request.
 
 Set request body to:
 
@@ -55,7 +55,7 @@ Run and check result. Expected response is:
 }
 ```
 
-In this tests `const expected = JSON.parse(pm.request.body.raw);` get submited data to response validation.
+In this tests `const expected = JSON.parse(pm.request.body.raw);` get submitted data to response validation.
 
 Final expected result of this collection is something like this:
 

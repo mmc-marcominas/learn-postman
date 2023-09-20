@@ -1,6 +1,6 @@
 # Adding related collections on Workspace
 
-When a request is select, on right corner is avalilable a `lamp` button:
+When a request is select, on right corner is available a `lamp` button:
 
 ![RESTful API Get data related collections](images/related_collections.png "RESTful API Get data related collections")
 
@@ -12,7 +12,7 @@ Try click on `Fork` of `Postman: An Introduction for Developers` and fork it on 
 
 ![RESTful API Get data related collections fork](images/related_collections_fork.png "RESTful API Get data related collections fork")
 
-Now, lets try `books` request of `1. Sending requests & inspecting responses` folder. Select it and click on `Send` buttom. It looks like:
+Now, lets try `books` request of `1. Sending requests & inspecting responses` folder. Select it and click on `Send` button. It will looks like:
 
 ![Developer collection - get books](images/developer_get_books.png "Developer collection - get books")
 

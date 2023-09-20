@@ -34,6 +34,7 @@ pm.test("get book by title", () => {
    console.log(book)
 });
 ```
+
 ![Developer collection - get specific book id](images/developer_get_books_book_id.png "Developer collection - get specific book id")
 
 Check if `id` is on collection variables after run test.

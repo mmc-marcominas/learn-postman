@@ -2,13 +2,13 @@
 
 Sometimes we use something without understand how that "thing" can really help us. In other case we really won't use fully because that is a swiss knife and some features just don't matter in our context and thats ok.
 
-Postman is a swiss knife in my opinion and I'll wont use all features. But is good explore some.
+Postman is a swiss knife in my opinion and I'll wont use all features. But is good explore some of them.
 
 I'll use a step by step approach using Postman basic feature and going to some more advanced.
 
-Tip: update Postman to newest version clicking on `Help` -> `Check for updates` on left top Postman menu. This docs are based on Postman 10.18.2 version features.
+Tip: update Postman to latest version clicking on `Help` -> `Check for updates` on left top Postman menu. This docs are based on Postman 10.18.2 version features.
 
-## Learing plan
+## Learning plan
 
 This actually is the learning plan to this repo and it may change:
 
@@ -17,7 +17,7 @@ This actually is the learning plan to this repo and it may change:
  - [x] [Using RESTful API Basics blueprint collection](./restful.md)
  - [x] [Adding related collections on Workspace](./related.md)
  - [x] [Creating tests with books requests](./tests.md)
- - [x] Using reqres.in to explorer
+ - [x] Using reqres.in to explore
    - [x] [Using reqres.in to register user](./reqres-in/reqres-in-register.md)
    - [x] [Using reqres.in to user login](./reqres-in/reqres-in-login.md)
    - [x] [Using reqres.in to retrieve users](./reqres-in/reqres-in-retrieve.md)
