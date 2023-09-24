@@ -38,48 +38,48 @@ pm.test(`On sucess - it should return status code ${expectedStatus}`, () => {
 });
 
 pm.test("On sucess - it should return page on response", () => {
-    pm.expect(result.page).to.exist;
+  pm.expect(result.page).to.exist;
 });
 
 pm.test("On sucess - it should return expected page", () => {
-   pm.expect(result.page).to.be.a('number');
-   pm.expect(result.page).to.eql(page);
+  pm.expect(result.page).to.be.a('number');
+  pm.expect(result.page).to.eql(parseInt(page));
 });
 
 pm.test("On sucess - it should return per_page on response", () => {
-    pm.expect(result.per_page).to.exist;
+  pm.expect(result.per_page).to.exist;
 });
 
 pm.test("On sucess - it should return expected per_page", () => {
-   pm.expect(result.per_page).to.be.a('number');
-   pm.expect(result.per_page).to.eql(per_page);
+  pm.expect(result.per_page).to.be.a('number');
+  pm.expect(result.per_page).to.eql(parseInt(per_page));
 });
 
 pm.test("On sucess - it should return total on response", () => {
-    pm.expect(result.total).to.exist;
+  pm.expect(result.total).to.exist;
 });
 
 pm.test("On sucess - it should return expected total", () => {
-   pm.expect(result.total).to.be.a('number');
-   pm.expect(result.total).to.eql(total);
+  pm.expect(result.total).to.be.a('number');
+  pm.expect(result.total).to.eql(parseInt(total));
 });
 
 pm.test("On sucess - it should return total_pages on response", () => {
-    pm.expect(result.total_pages).to.exist;
+  pm.expect(result.total_pages).to.exist;
 });
 
 pm.test("On sucess - it should return expected total_pages", () => {
-   pm.expect(result.total_pages).to.be.a('number');
-   pm.expect(result.total_pages).to.eql(total_pages);
+  pm.expect(result.total_pages).to.be.a('number');
+  pm.expect(result.total_pages).to.eql(total_pages);
 });
 
 pm.test("On sucess - it should return data on response", () => {
-    pm.expect(result.data).to.exist;
+  pm.expect(result.data).to.exist;
 });
 
 pm.test("On sucess - it should return expected data length", () => {
-   pm.expect(result.data).to.be.a('array');
-   pm.expect(result.data.length).to.eql(per_page);
+  pm.expect(result.data).to.be.a('array');
+  pm.expect(result.data.length).to.eql(parseInt(per_page));
 });
 ```
 
