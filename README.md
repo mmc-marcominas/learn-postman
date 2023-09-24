@@ -1,10 +1,10 @@
 # Learning Postman
 
-Sometimes we use something without understand how that "thing" can really help us. In other case we really won't use fully because that is a swiss knife and some features just don't matter in our context and thats ok.
+Sometimes we use something without understand how that "thing" can really help us. In other case we really won't use it fully because some features just don't matter in our context and thats ok.
 
 Postman is a swiss knife in my opinion and I'll wont use all features. But is good explore some of them.
 
-I'll use a step by step approach using Postman basic feature and going to some more advanced.
+I'll use a step by step approach to explore Postman basic feature and going to some more advanced.
 
 Tip: update Postman to latest version clicking on `Help` -> `Check for updates` on left top Postman menu. This docs are based on Postman 10.18.2 version features.
 
@@ -23,7 +23,8 @@ This actually is the learning plan to this repo and it may change:
    - [x] [Using reqres.in to retrieve users](./reqres-in/reqres-in-retrieve.md)
    - [x] [Using reqres.in to update users](./reqres-in/reqres-in-patch.md)
    - [x] [Using reqres.in to build request workflows](./reqres-in/reqres-in-workflow.md)
-   - [x] [Using reqres.in with cool stuffs](./reqres-in/reqres-in-cool.md)
+   - [x] [Running reqres.in](./reqres-in/reqres-in-running.md)
+   - [x] [Cool stuffs](./reqres-in/reqres-in-cool.md)
 
 ## What's next? Check:
 
@@ -34,6 +35,8 @@ This actually is the learning plan to this repo and it may change:
  * [Run a collection using imported data](https://learning.postman.com/docs/collections/running-collections/working-with-data-files/)
  * [Postman VS Code extension](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode)
  * [All Things Postman](https://github.com/DannyDainton/All-Things-Postman)
+ * [Generating API documentation](https://learning.postman.com/docs/publishing-your-api/documenting-your-api/)
+ * [The Good Documentation Checklist](https://documenter.getpostman.com/view/1559645/TVYGbHs1)
 
 ## Licence
 
