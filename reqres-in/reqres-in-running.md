@@ -113,7 +113,7 @@ And errors results looks like:
 
 ![Run reqres.in collection performance error test](../images/run_collection_performance_errors.png "Run reqres.in collection performance error test")
 
-The problem is that this erros are false negatives - performance test checks http status result to evaluate what pass or not and we have some tests wrote to fail. Try again unselecting this:
+The problem is that this errors are false negatives - performance test checks http status result to evaluate what pass or not and we have some tests wrote to fail. Try again unselecting this:
 
  * Register undefined user error
  * Login password error
